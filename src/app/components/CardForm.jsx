@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import SuccessMessage from "./SucessMessage";
 
 
 const CardForm = ({updateCardholderName,updateCardNumber,updateExpMonth,updateExpYear,updateCvc}) => {
@@ -230,7 +231,7 @@ const CardForm = ({updateCardholderName,updateCardNumber,updateExpMonth,updateEx
           </button>
         </form>
       )}
-      {successForm && <p>Success message</p>}
+      {successForm && <SuccessMessage />}
     </div>
   );
 };

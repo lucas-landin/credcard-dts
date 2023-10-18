@@ -66,7 +66,7 @@ const ImageSwitcher = ({ cardholderName, cardNumber, expMonth, expYear, cvc }) =
           </div>
 
        <div className=" bg-card-back w-[445px] h-[244px] object-cover  z-10 absolute top-[500px] left-[256px] shadow-2xl">
-       <div className=" text-white absolute top-28 left-[23rem]">
+       <div className=" text-white absolute top-[109px] left-[23rem]">
        <span className=" text-sm tracking-widest">{cvc}</span>
        </div>
        </div>
@@ -85,13 +85,13 @@ const ImageSwitcher = ({ cardholderName, cardNumber, expMonth, expYear, cvc }) =
           layout="responsive"
         />       
 
-        <div className=" bg-card-back w-[280px] h-[280px] bg-contain bg-no-repeat  absolute top-[50px] left-[80px]">
-        <div className=" text-white absolute  top-16 left-[218px]">
-        <span className=" text-sm tracking-widest">{cvc}</span>
+        <div className=" bg-card-back w-[280px] h-[153px] bg-contain bg-no-repeat  absolute top-[50px] left-[80px]">
+        <div className=" text-white absolute  top-[63px] left-[224px]">
+        <span className=" text-xs tracking-widest">{cvc}</span>
         </div>
         </div>
 
-      <div className=" bg-card-front  w-[280px] h-[280px] bg-contain bg-no-repeat z-10 absolute  top-[136px] left-[30px] shadow-sm rounded-md">
+      <div className=" bg-card-front  w-[280px] h-[153px] bg-contain bg-no-repeat z-10 absolute  top-[136px] left-[30px] shadow-sm rounded-md">
 
           <div className="card_deco absolute top-5 left-4 z-10 flex flex-row items-center gap-2">
           <div className=" bg-white w-8 h-8 rounded-full  " />
