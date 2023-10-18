@@ -2,7 +2,7 @@
 
 This project is a web page that provides a user-friendly form for collecting credit card information and displays an interactive credit card component for real-time data updates.
 
-![Credit Card Form Demo](![desktop-design](https://raw.githubusercontent.com/lucas-landin/credcard-dts/master/desktop-design.jpg))
+![Credit Card Form Demo](desktop-design.jpg)
 
 
 
