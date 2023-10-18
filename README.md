@@ -18,5 +18,5 @@ You can see a live demo of this project [here](https://credcard-dts.vercel.app/)
 
 - **Validation**: Client-side validation to ensure that the user enters a valid credit card number, expiration date, and CVV.
 
-- **Security**: Ensure secure data transmission and storage following best practices.
+- **Security**: Ensure secure data transmission following best practices.
 
