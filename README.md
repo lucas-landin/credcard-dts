@@ -20,20 +20,3 @@ You can see a live demo of this project [here](https://your-demo-url.com).
 
 - **Security**: Ensure secure data transmission and storage following best practices.
 
-## Getting Started
-
-Follow these instructions to set up the project locally.
-
-### Prerequisites
-
-- Node.js and npm installed on your machine.
-
-### Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/credit-card-form.git
-cd credit-card-form
-npm install
-npm run dev
